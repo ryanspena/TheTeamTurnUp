@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ryanspena/TheTeamTurnUp/issues"
   },
-  "homepage": "https://github.com/ryanspena/TheTeamTurnUp#readme"
+  "homepage": "https://github.com/ryanspena/TheTeamTurnUp#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
