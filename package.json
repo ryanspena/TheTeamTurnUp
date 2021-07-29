@@ -1,10 +1,13 @@
 {
-  "name": "profile-generator",
+  "name": "teamturnup",
   "version": "1.0.0",
-  "description": "creates team profile webpages from user input",
+  "description": "profile generator",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,9 @@
   },
   "homepage": "https://github.com/ryanspena/TheTeamTurnUp#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
   }
 }
